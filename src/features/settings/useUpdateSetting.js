@@ -1,5 +1,5 @@
 import { QueryClient, useMutation } from "@tanstack/react-query";
-import { updateSetting as updatingSettingApi } from "../../services/apiCabins";
+import { updateSetting as updatingSettingApi } from "../../services/apiSettings";
 import toast from "react-hot-toast";
 
 export function useEditCabin() {
